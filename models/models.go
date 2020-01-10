@@ -36,7 +36,7 @@ type Streams struct {
 	RFrameRrate        string      `json:"r_frame_rate"`
 	AvgFrameRate       string      `json:"avg_frame_rate"`
 	TimeBase           string      `json:"time_base"`
-	DurationTs         int         `json:"duration_ts"`
+	DurationTs         int64       `json:"duration_ts"`
 	Duration           string      `json:"duration"`
 	Disposition        Disposition `json:"disposition"`
 	BitRate            string      `json:"bit_rate"`
